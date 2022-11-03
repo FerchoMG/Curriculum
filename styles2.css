@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#particles-js{
+    background-color:#000000;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0%;
+    z-index: -1;
+   
+}
+.principal{
+    margin: 75px;
+    padding: 25px;
+    border: 5px transparent;
+    border-radius: 25px;
+    background-size: 400%;
+    animation: gradient 5s infinite;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+    
+.about-content{
+    display: inline-block;
+    width: 20em;
+    height: 31em;
+    background-color: #252525 ;
+    border: 5px transparent;
+    border-radius: 15px;  
+}
+.about-content:hover {
+    background:linear-gradient(90deg, #000000f8,#005c23);
+    background-size: 400%;
+    animation: gradient 1s infinite;
+    transition: .4s;
+}
+
+@keyframes gradient {
+    0%, 100%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    
+}
+.about-content img{
+    padding-top:10px;
+    width: 100px;
+    border: 5px transparent;
+    border-radius: 15px;
+}
+.nombre{
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 40px;
+}
+.apellido{
+    color: rgb(18, 223, 18);
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 40px; 
+}
+.about-content p{
+    margin-top: 10px;
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+
+.contact-info{
+    position: absolute;
+    display: inline-block;
+    background-color: #252525;
+    width: 300px;
+    border: 5px transparent;
+    border-radius: 15px;
+    padding: 16px;
+}
+.contact-info:hover {
+    background:linear-gradient(90deg, #000000f8,#005c23);
+    background-size: 400%;
+    animation: gradient 1s infinite;
+    transition: .4s;
+}
+
+.contact-info h2{
+    text-transform: uppercase;
+    color: rgb(18, 223, 18);
+}
+.contact-info h4{
+    text-transform: uppercase;  
+}
+
+.education{
+    position: static;
+    display: inline-block;
+    background-color: #252525;
+    width: 300px;
+    border: 5px transparent;
+    border-radius: 15px;
+    padding: 21px;
+}
+.education:hover {
+    background:linear-gradient(90deg, #000000f8,#005c23);
+    background-size: 400%;
+    animation: gradient 1s infinite;
+    transition: .4s;
+}
+
+.education h2{
+color: rgb(18, 223, 18);
+margin-bottom: 5px;
+text-transform: uppercase;
+}
+.education h4{
+    display: inline-block;
+    text-align: left;
+}
+.aptitudes{
+    font-size: 20px;
+    position: absolute;
+    display: inline-block;
+    background-color: #252525;
+    width: 300px;
+    border: 5px transparent;
+    border-radius: 15px;
+    padding: 10px;
+}
+.aptitudes:hover {
+    background:linear-gradient(90deg, #000000f8,#005c23);
+    background-size: 400%;
+    animation: gradient 1s infinite;
+    transition: .4s;
+}
+
+.aptitudes h2{
+    color: rgb(18, 223, 18);
+    text-transform: uppercase;
+    padding: 10px;
+}
+.aptitudes h4{
+    display: inline block;
+}
+.experiencia{
+    font-size: 25px;
+    position:unset;
+    display: inline-block;
+    background-color: #252525;
+    width: 300px;
+    border: 5px transparent;
+    border-radius: 15px;
+    padding: 10px;
+}
+.experiencia:hover {
+    background:linear-gradient(90deg, #000000f8,#005c23);
+    background-size: 400%;
+    animation: gradient 1s infinite;
+    transition: .4s;
+}
+
+.experiencia h2{
+    text-transform: uppercase;
+    color: rgb(18, 223, 18);
+    padding: 20px 0px;
+}
+.experiencia p{
+padding: 5px;
+}
+.experiencia h4{
+    padding: 19px;
+}
+button{
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    background-color:rgb(18, 223, 18);
+    text-transform: none;
+    padding: 13px;
+    border: 2px transparent;
+    border-radius: 30px; 
+    transition: .4s;   
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(18, 223, 18);
+    cursor: pointer;
+}
+.cur{
+    padding: 27px;
+    background: linear-gradient(to right,#00ff40 10%, #01ef96 50%, #086d0d 90%);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 2s linear infinite;
+}
+@keyframes animate {
+to{
+    background-position: 200%;
+}    
+}
+
