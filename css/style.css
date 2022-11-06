@@ -6,13 +6,19 @@
 }
 
 .cabecera {
-    background-image: url(/assets/background.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
+.cover{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100em;
+    height: 100vh;
 
+}
 nav {
     display: flex;
     align-items: center;
@@ -85,7 +91,7 @@ h4 .text {
     width: 100%;
     height: 100%;
     top: 0%;
-    z-index: -1;
+    z-index: -2;
 }
 
 dl {
